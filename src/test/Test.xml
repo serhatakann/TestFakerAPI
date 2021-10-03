@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Faker API for Trendyol">
+    <test name="Regression">
+        <classes>
+            <class name="CustomURLCheckTest"/>
+            <class name="QuantityCheckTest"/>
+            <class name="TextCreateCharacterCheckTest"/>
+            <class name="TextCreateCheckTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
